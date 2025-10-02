@@ -86,40 +86,74 @@ const PitchDeck = () => {
     },
     {
       title: "AI Agent Portfolio",
-      subtitle: "Comprehensive Automation Across SAP Operations",
+      subtitle: "Potential Agents Enabled by Our MCP Infrastructure",
       content: (
-        <div className="grid grid-cols-2 gap-6">
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-blue-500">
-            <div className="font-bold text-lg mb-2 text-blue-900">Migration Agent</div>
-            <div className="text-gray-600 text-sm">Automates SAP system migrations, analyzes dependencies, and ensures data integrity</div>
+        <div className="space-y-6">
+          <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white p-6 rounded-xl text-center">
+            <div className="text-2xl font-bold mb-2">Our MCP Servers Enable Multiple AI Agent Possibilities</div>
+            <div className="text-lg opacity-90">With our foundational technology, these agents can be rapidly developed</div>
           </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-green-500">
-            <div className="font-bold text-lg mb-2 text-green-900">ABAP Development Agent</div>
-            <div className="text-gray-600 text-sm">Generates, optimizes, and refactors ABAP code following best practices</div>
+          <div className="grid grid-cols-2 gap-6">
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-blue-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-blue-900">Migration Agent</div>
+                <div className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Automates SAP system migrations, analyzes dependencies, and ensures data integrity</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-green-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-green-900">ABAP Development Agent</div>
+                <div className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Generates, optimizes, and refactors ABAP code following best practices</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-purple-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-purple-900">Code Review Agent</div>
+                <div className="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Performs comprehensive code reviews, identifies issues, suggests improvements</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-yellow-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-yellow-900">Documentation Agent</div>
+                <div className="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Automatically generates technical documentation from ABAP code</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-red-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-red-900">Code Cleaner Agent</div>
+                <div className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Identifies and removes dead code, optimizes performance</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-indigo-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-indigo-900">Ticket Dispatcher Agent</div>
+                <div className="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Intelligently routes support tickets to appropriate teams</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-pink-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-pink-900">QA Automation Agent</div>
+                <div className="text-xs bg-pink-100 text-pink-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Tests Fiori apps automatically, validates workflows, catches bugs</div>
+            </div>
+            <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-teal-500">
+              <div className="flex items-center justify-between mb-2">
+                <div className="font-bold text-lg text-teal-900">Workflow Execution Agent</div>
+                <div className="text-xs bg-teal-100 text-teal-700 px-2 py-1 rounded">Potential</div>
+              </div>
+              <div className="text-gray-600 text-sm">Executes complex business processes across custom Fiori applications</div>
+            </div>
           </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-purple-500">
-            <div className="font-bold text-lg mb-2 text-purple-900">Code Review Agent</div>
-            <div className="text-gray-600 text-sm">Performs comprehensive code reviews, identifies issues, suggests improvements</div>
-          </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-yellow-500">
-            <div className="font-bold text-lg mb-2 text-yellow-900">Documentation Agent</div>
-            <div className="text-gray-600 text-sm">Automatically generates technical documentation from ABAP code</div>
-          </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-red-500">
-            <div className="font-bold text-lg mb-2 text-red-900">Code Cleaner Agent</div>
-            <div className="text-gray-600 text-sm">Identifies and removes dead code, optimizes performance</div>
-          </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-indigo-500">
-            <div className="font-bold text-lg mb-2 text-indigo-900">Ticket Dispatcher Agent</div>
-            <div className="text-gray-600 text-sm">Intelligently routes support tickets to appropriate teams</div>
-          </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-pink-500">
-            <div className="font-bold text-lg mb-2 text-pink-900">QA Automation Agent</div>
-            <div className="text-gray-600 text-sm">Tests Fiori apps automatically, validates workflows, catches bugs</div>
-          </div>
-          <div className="bg-white p-5 rounded-lg shadow-md border-l-4 border-teal-500">
-            <div className="font-bold text-lg mb-2 text-teal-900">Workflow Execution Agent</div>
-            <div className="text-gray-600 text-sm">Executes complex business processes across custom Fiori applications</div>
+          <div className="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500">
+            <div className="font-bold text-lg mb-2 text-blue-900">The Power of Our Platform</div>
+            <div className="text-gray-700">Our two MCP servers provide the foundational infrastructure to rapidly build any of these specialized agents. The technology is proven—now we can create agents tailored to customer needs.</div>
           </div>
         </div>
       )
