@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/",
+    "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/sap-ai-bridge-pitch.git"
+    "url": "https://github.com/YahorNovik/SAPAIBridge.git"
   },
-  "homepage": "https://yourusername.github.io/sap-ai-bridge-pitch"
+  "homepage": "https://YahorNovik.github.io/SAPAIBridge"
 }
